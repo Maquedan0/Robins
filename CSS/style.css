@@ -5,11 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
 body{
-    background-color: rgb(40, 9, 5);
+    background-color: black;
 }
 
 header{
-    background-color: rgb(116, 10, 3);
+    background-color: rgb(61, 0, 0);
     display: inline-flex;
     justify-content: space-around;
     width: 100%;
@@ -17,8 +17,8 @@ header{
     font-family: "Chelsea Market", system-ui;
     padding-top: 10px;
     padding-bottom: 10px;
-
-    box-shadow: 20px rgba(87, 87, 87, 0.5);
+    border-bottom: 4px solid rgb(34, 0, 0);
+    box-shadow: 0px 20px 20px  rgba(224, 31, 31, 0.103);
 }
 
 header div{
@@ -29,7 +29,7 @@ header div{
 
 main{
     display: flex;
-    background-image: url(../Imagens/RRRRR-removebg-preview.png);
+    background-image: url(../Imagens/snapedit_1782082156037.png);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -38,6 +38,7 @@ main{
     justify-content: center;
     align-items:flex-start;
     flex-direction: column;
+    
 }
 
 main div{
@@ -52,6 +53,9 @@ section{
     display: flex;
     margin: 20px;
     justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
 }
 
 section img{
@@ -60,19 +64,21 @@ section img{
 }
 
 .item{
-    border: 40px solid white;
+    border: 40px solid rgb(61, 0, 0);
     border-radius: 20px;
-    background-color: white;
-    box-shadow: 20px 20px 20px rgba(211, 211, 211, 0.274);
+    background-color: rgb(61, 0, 0);
+    box-shadow: 20px 20px 20px rgba(224, 31, 31, 0.103);
+    margin: 20px;
+    color: white;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 footer{
-    background-color: rgb(116, 10, 3);
+    background-color: rgb(61, 0, 0);
     display: inline-flex;
     justify-content: space-around;
     width: 100%;
@@ -81,7 +87,8 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
 
-    box-shadow: 20px rgba(87, 87, 87, 0.5);
+    border-top: 4px solid rgb(34, 0, 0);
+    box-shadow: 0px -15px 20px  rgba(224, 31, 31, 0.103);
 }
 
 .continuo{
@@ -99,11 +106,11 @@ footer{
     margin: 0px;
 }
 
-nav div{
+.ref{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: white;
+    background-color: rgb(61, 0, 0);
     padding: 50px;
     border-radius:30px ;
     margin: 50px;
