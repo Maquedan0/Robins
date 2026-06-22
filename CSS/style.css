@@ -55,7 +55,14 @@ section{
     justify-content: space-around;
     flex-wrap: wrap;
     
-    
+    border: 4px double rgb(61, 0, 0);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+section:hover{
+    border: 2px solid rgb(61, 0, 0);
+    background-color: rgb(5, 0, 0);
 }
 
 section img{
@@ -67,9 +74,16 @@ section img{
     border: 40px solid rgb(61, 0, 0);
     border-radius: 20px;
     background-color: rgb(61, 0, 0);
-    box-shadow: 20px 20px 20px rgba(224, 31, 31, 0.103);
+    box-shadow: 0px 5px 5px rgba(224, 31, 31, 0.103);
     margin: 20px;
     color: white;
+    transition: all 0.3s ease;
+}
+
+.item:hover{
+    box-shadow: 0px 20px 20px rgba(224, 31, 31, 0.103);
+    transform: translateY(-10px);
+    transform: scale(0.95);
 }
 
 a{
