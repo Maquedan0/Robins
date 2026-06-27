@@ -10,3 +10,4 @@ rerencias:
     https://ocanildobeagle.blogspot.com/2019/10/os-80-anos-do-batman-parte-4-robin-o.html
     http://www.guiadosquadrinhos.com/personagem/robin-iv-%28stephanie-brown%29/1326
     https://liberproeliis.fandom.com/pt-br/wiki/Robin_(Damian_Wayne)
+    https://www.torredevigilancia.com/legado-conheca-a-historia-dos-robins/

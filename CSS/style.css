@@ -175,3 +175,10 @@ footer{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.imagensPequenas{
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
